@@ -2,8 +2,6 @@ from django.urls import path, reverse_lazy, include
 from .views import *
 from django.contrib.auth import views as auth_views
 
-# when you remove the app_name django.contrib.auth.urls works perfectly
-# app_name = 'accounts'
 
 app_name = 'accounts'
 urlpatterns = [
